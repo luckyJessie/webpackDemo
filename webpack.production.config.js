@@ -8,6 +8,7 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 
 module.exports = {
+  mode: 'production',
   entry: __dirname + "/app/main.js", //已多次提及的唯一入口文件
   output: {
     path: __dirname + "/build",

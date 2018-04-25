@@ -5,6 +5,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  mode: 'none',
   entry: __dirname + "/app/main.js", //已多次提及的唯一入口文件
   output: {
     path: __dirname + "/build",
